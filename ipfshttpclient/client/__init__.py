@@ -116,7 +116,7 @@ def connect(
 	)
 	
 	# Query version number from daemon and validate it
-	assert_version(client.apply_workarounds()["Version"])
+	# assert_version(client.apply_workarounds()["Version"])
 	
 	return client
 
